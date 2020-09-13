@@ -11,7 +11,7 @@
 
 function hello(name) {
 
-  if (name != "" || name != null){
+  if (name != "" && name != undefined ){
     return 'Hello, ' + name + '!';
   }else {
     return 'Hello, World!'
