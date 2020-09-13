@@ -12,7 +12,8 @@
 function hello(name) {
 
   if (name != "" && name != undefined ){
-    return 'Hello, ' + name + '!';
+    let firstLetterCapitalize = name.charAt(0).toUpperCase() + name.slice(1);
+    return 'Hello, ' + firstLetterCapitalize + '!';
   }else {
     return 'Hello, World!'
   }

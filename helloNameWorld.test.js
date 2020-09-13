@@ -12,3 +12,7 @@ test('returns Hello, World! if string is empty', () => {
 test('returns Hello, World! if no argument is passed', () => {
   expect(hello()).toBe("Hello, World!");
 });
+
+test('returns the name capitalized', () => {
+  expect(hello("john")).toBe("Hello, John!");
+});
