@@ -16,3 +16,7 @@ test('returns Hello, World! if no argument is passed', () => {
 test('returns the name capitalized', () => {
   expect(hello("john")).toBe("Hello, John!");
 });
+
+test('returns correct name if mid letters are capitalize', () =>{
+  expect(hello("joHN")).toBe("Hello, John!");
+});
