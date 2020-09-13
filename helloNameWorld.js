@@ -10,8 +10,12 @@
 // hello ''       => "Hello, World!"
 
 function hello(name) {
-  return 'Hello, ' + name + '!';
-  
+
+  if (name != "" || name != null){
+    return 'Hello, ' + name + '!';
+  }else {
+    return 'Hello, World!'
+  }
 };
 
 module.exports = hello;
