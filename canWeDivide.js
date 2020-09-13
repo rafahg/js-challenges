@@ -6,5 +6,7 @@
 // (11,3,4) -> false
 
 function isDivisible(number, a, b) {
-
+ 
 };
+
+module.exports = isDivisible;
