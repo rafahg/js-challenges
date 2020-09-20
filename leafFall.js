@@ -10,8 +10,16 @@
 // Pay attention to the data types.
 // If the initial velocity is non-positive, the return value should be 0
 
- function leafTime() {
-     
+ function leafTime(v) {
+     //v is speed cm/s
+     // distance to ground is based in given knowledge.
+     const distanceToGround = 80 * 5;
+     let time = distanceToGround / v
+        if(time > 0 && time != Infinity) {
+            return time;
+        }else {
+            return 0;
+        }
  }
 
  module.exports = leafTime;
