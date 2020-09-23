@@ -1,6 +1,6 @@
 const twoSum = require('./twoSum')
 
 
-test('it will return something', () => {
-    expect(twoSum()).toBe(2)
+test('array 2 elements, return 0 , 1 index', () => {
+    expect(twoSum([1,1],2)).toBe([0,1])
 })
