@@ -23,3 +23,7 @@ test('array 2 elements, return next to each other indexes', () => {
 test('array 2 elements non consecutive sums target', () =>{
     expect(twoSum([2,5,8],10)).toStrictEqual([0,2])
 })
+
+test('array 2 elements non consecutive sums target', () =>{
+    expect(twoSum([2,5,8,19,52],57)).toStrictEqual([1,4])
+})
