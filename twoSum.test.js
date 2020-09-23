@@ -1,6 +1,19 @@
 const twoSum = require('./twoSum')
 
-
+// #1 Test, simple case scenario, 2 elements array.
 test('array 2 elements, return 0 , 1 index', () => {
-    expect(twoSum([1,1],2)).toBe([0,1])
+    // toStrictequal is used when we are dealing with arrays.
+    expect(twoSum([1,1],2)).toStrictEqual([0,1])
 })
+
+// #2 Test, case array 3 elements, target is the sum of first two items.
+
+test('array 2 elements, return next to each other indexes', () => {
+    expect(twoSum([1,2,3],3)).toStrictEqual([0,1]);
+})
+
+
+test('array 2 elements, return next to each other indexes', () => {
+    expect(twoSum([1,2,3],5)).toStrictEqual([1,2]);
+})
+
