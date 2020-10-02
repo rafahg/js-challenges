@@ -9,7 +9,8 @@ function multiplesSum(number) {
           list.push(i);
       }
     }
-    return list.reduce((a,b) => a + b, 0);
+    const solution =  list.reduce((a,b) => a + b, 0);
+    return `The solution is ${solution}`;
 };
 
 module.exports = multiplesSum;
