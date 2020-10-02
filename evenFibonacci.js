@@ -11,14 +11,21 @@ function evenFibbo(number){
     let y = 2
     numberList.push(x);
     numberList.push(y);
-    for(let i=1; i<number ; i++) {
+    for(let i=2; i<number ; i++) {
         let z;
         z = x + y 
         numberList.push(z);
         x = y
         y = z
     }
-    return numberList;
+    let sumEven = 0
+    for(let j=0; j<numberList.length; j++) {
+        if(numberList[j] % 2 === 0) {
+        sumEven += numberList[j];
+        }
+    }
+    return sumEven;
 }
 
 module.exports = evenFibbo;
+
