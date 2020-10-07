@@ -4,7 +4,8 @@
   "description": "",
   "main": "average.js",
   "dependencies": {
-    "jest": "^26.4.2"
+    "jest": "^26.4.2",
+    "mathjs": "^7.3.0"
   },
   "devDependencies": {},
   "scripts": {
