@@ -4,7 +4,13 @@
 
 
 function countTrues(list) {
-   
+    let sum = 0
+    list.forEach(item => {
+        if(item === true) {
+            sum +=1
+        }
+    })
+   return sum;
 };
 
 
