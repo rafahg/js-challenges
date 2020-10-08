@@ -2,7 +2,9 @@
 //Example -----> ["paul",2,true] = > ["paul",true]
 
 function firstLast(arr) {
-
+  let newArr = []
+  newArr.push(arr[0])
+  return newArr
 }
 
 module.exports = firstLast;

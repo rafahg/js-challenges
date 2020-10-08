@@ -18,7 +18,6 @@ function evenFibbo(number){
         x = y
         y = z
     }
-    console.log(numberList);
     let sumEven = 0
     for(let j=0; j<numberList.length; j++) {
         if(numberList[j] % 2 === 0) {
