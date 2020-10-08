@@ -22,7 +22,6 @@ function twoSumLessK(arr, k) {
    for(let i=0; i< arr.length; i++) {
        for(let j=i+1; j< arr.length; j++){
            let s = arr[i] + arr[j];
-           console.log(s);
            if( k < s){
              let a = [];
              let list = a.push(s);
