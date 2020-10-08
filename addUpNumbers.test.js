@@ -2,5 +2,5 @@ const addUpNumbers = require('./addUpNumbers')
 
 
 test("it will sum 1 number",() =>{
-    expect(addUpNumbers()).toBe(1)
+    expect(addUpNumbers(1)).toBe(1)
 })
