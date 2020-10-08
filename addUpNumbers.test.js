@@ -9,3 +9,6 @@ test("it will sum number 2",() =>{
     expect(addUpNumbers(2)).toBe(3)
 })
 
+test("it will sum number 5", () => {
+    expect(addUpNumbers(5)).toBe(15)
+})
