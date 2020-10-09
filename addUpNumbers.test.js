@@ -12,3 +12,7 @@ test("it will sum number 2",() =>{
 test("it will sum number 5", () => {
     expect(addUpNumbers(5)).toBe(15)
 })
+
+test("it will sum number 6", () => {
+    expect(addUpNumbers(6)).toBe(21)
+})
