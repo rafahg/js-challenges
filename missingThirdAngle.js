@@ -20,7 +20,7 @@ function missingAngles(angle1, angle2) {
    let missingAngle = 180 - (angle1 + angle2)
    if(missingAngle === 90) {
      return "rigth";
-   } else if ( missingAngles > 90) {
+   } else if ( missingAngle > 90) {
      return "obtuse";
    } else {
      return "acute"
