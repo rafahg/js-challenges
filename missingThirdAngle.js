@@ -1,5 +1,7 @@
 // You are given 2 out of 3 angles in a triangle, in degrees.
 
+const { rightArithShift } = require("mathjs");
+
 // Write a function that classifies the missing angle as either "acute", "right", or "obtuse" based on its degrees.
 
 // An acute angle is less than 90 degrees.
@@ -14,10 +16,17 @@
 
 // missingAngle(45, 45) ➞ "right"
 
-function missingAngles() {
-  
+function missingAngles(angle1, angle2) {
+   let missingAngle = 180 - (angle1 + angle2)
+   if(missingAngle === 90) {
+     return "rigth";
+   } else if ( missingAngles > 90) {
+     return "obtuse";
+   } else {
+     return "acute"
+   }
 
 }
 
 
-modules.export = missingAngles;
+module.exports = missingAngles;
