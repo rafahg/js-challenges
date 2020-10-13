@@ -14,9 +14,11 @@ function evenFibbo(number){
     for(let i=2; i<number ; i++) {
         let z;
         z = x + y 
+        if(z <= 4000000){
         numberList.push(z);
         x = y
         y = z
+        }
     }
     let sumEven = 0
     for(let j=0; j<numberList.length; j++) {
