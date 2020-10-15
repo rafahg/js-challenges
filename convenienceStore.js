@@ -4,7 +4,8 @@ To illustrate: changeEnough([25, 20, 5, 0], 4.25) should yield true, since havin
 
 function changeEnough(itemDue, arrChange) {
 
-    return "whatever"
+    let totalAmount = arrChange[0] * 25 + arrChange[1] * 10 + arrChange[2] * 5 + arrChange[3] * 1
+    return totalAmount;
 }
 
     module.exports = changeEnough;
