@@ -2,8 +2,9 @@
 
 To illustrate: changeEnough([25, 20, 5, 0], 4.25) should yield true, since having 25 quarters, 20 dimes, 5 nickels and 0 pennies gives you 6.25 + 2 + .25 + 0 = 8.50. */
 
-function changeEnough() {
+function changeEnough(itemDue, arrChange) {
 
+    return "whatever"
 }
 
     module.exports = changeEnough;
