@@ -4,7 +4,7 @@ To illustrate: changeEnough([25, 20, 5, 0], 4.25) should yield true, since havin
 
 class Store {
 
-    changeEnough(itemDue, arrChange) {
+    change(arrChange) {
     let total = arrChange[0] * 25 + arrChange[1] * 10 + arrChange[2] * 5 + arrChange[3] * 1
     return total
     }
