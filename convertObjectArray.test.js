@@ -8,5 +8,5 @@ test('Return an array of with pair key, values',() =>{
 
 test('Return a bigger array of pair key, values',() =>{
   let example = {foo:1, bar:2, superBar:3, miniBar:4}
-  expect(convertObjectArray(example)).toStrictEqual()
+  expect(convertObjectArray(example)).toStrictEqual([["foo", 1], ["bar", 2], ["superBar", 3], ["miniBar", 4]])
 })
